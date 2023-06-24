@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form Demo</title>
+        <link rel="stylesheet" href="INDEX.css"> <!-- Include your custom CSS file here -->
+    </head>
+    <body>
+        <header class="header">
+            <a class="logo">Form</a>
+            <nav class="navbar">
+              <a href="index.html">HOME</a>
+              <a href="About.html">ABOUT ME</a>
+              <a href="Skills.html">SKILLS/PROJECTS</a>
+              <a href="Timetable.html">TIMETABLE</a>
+              <a href="Form.html" class="active">FORM</a>
+              <a href="Contact.html">CONTACT</a>
+            </nav>
+        </header>
+        <form>
+        Enter name : <input type = "text" placeholder = "Enter name" required> <!-- for text minlength = "3"-->
+        <br><br>
+        Enter Birth Date : <input type = "date">
+        <br><br>
+        Enter Age : <input type = "number" placeholder = "Enter Age" required> <!--for number min = "3" max = "10"-->
+        <br><br>
+        Enter Email : <input type = "email" placeholder = "Enter Email" required>
+        <br><br>
+        Enter Password : <input type = "password" placeholder = "Enter Password" required>
+        <br><br>
+        <input type = "radio" name = "gender"> Male
+        <input type = "radio" name = "gender"> Female
+        <br><br>
+        <select>
+            <option>English</option>
+            <option>Marathi</option>
+            <option>Hindi</option>
+        </select>
+        <br><br>
+        <textarea rows = "5" column = "20" placeholder = "Enter Address" required></textarea>
+        <br><br>
+        <input type = "checkbox"> I Agree
+        <br><br>
+        <button type = "submit">
+            Register
+        </button>
+        <button type = "reset">
+            Reset
+        </button>
+        </form>
+    </body>
+</html>
